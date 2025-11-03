@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-CO_PWD=/Users/179192/Applications/CrossOver-1.app
-test -d "${CO_PWD}" || CO_PWD=/Users/179192/Applications/CrossOver-1.app
+CO_PWD=/Users/179192/Applications/CrossOver-1.app/Contents
+test -d "${CO_PWD}" || CO_PWD=/Users/179192/Applications/CrossOver-1.app/Contents
 
 test -d "${CO_PWD}" || (echo 'unable to detect app path. exiting...' && exit)
 
